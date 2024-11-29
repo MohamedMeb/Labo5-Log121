@@ -2,7 +2,9 @@ package view;
 
 import model.ImageModel;
 
-public class ThumbnailView implements Observer{
+import javax.swing.*;
+
+public class ThumbnailView extends JPanel implements Observer {
     private ImageModel thumbnailModel;
 
     public ThumbnailView(ImageModel model) {

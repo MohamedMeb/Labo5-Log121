@@ -1,4 +1,6 @@
 package view;
 
-public class DetailView {
+import javax.swing.*;
+
+public class DetailView extends JPanel {
 }

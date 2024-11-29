@@ -2,7 +2,9 @@ package view;
 
 import model.ImageModel;
 
-public class PerspectiveView implements Observer{
+import javax.swing.*;
+
+public class PerspectiveView extends JPanel implements Observer{
     private ImageModel perspectiveModel;
 
     public PerspectiveView(ImageModel perspectiveModel) {
